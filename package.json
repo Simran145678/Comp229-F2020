@@ -1,9 +1,13 @@
 {
   "name": "week3-part2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node .//server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.0",
@@ -15,5 +19,18 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "Demo app for comp 229",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simran145678/Comp229-F2020.git"
+  },
+  "author": "Simran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simran145678/Comp229-F2020/issues"
+  },
+  "homepage": "https://github.com/Simran145678/Comp229-F2020#readme"
 }
